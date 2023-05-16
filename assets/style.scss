@@ -1,0 +1,405 @@
+$Primary-color: #fcdbd0;
+$second-color: #b48a4a;
+$tird-color: #44341c;
+$forth-color: #8b7a72;
+$fifth-color: #d5b4b5;
+$sixth-color:#231500;
+
+
+@media (max-width: 400px) {
+    body {
+        align-items: center;
+        background-color: $tird-color;
+    }
+
+    h1,
+    .brand {
+        color: $tird-color;
+        font-style: none;
+        font-weight: bold;
+        font-size: x-large;
+        text-decoration: none;
+        border-radius: 2%;
+        text-align: center;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    }
+    h3{
+        color: $sixth-color;
+            font-style:oblique;
+            font-weight: bold;
+            font-size: large;
+            border-radius: 2%;
+            text-align: center;
+            font-family:"Arial Narrow", Arial, sans-serif;
+    }
+
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        background-color: $Primary-color;
+        border-radius: 2%;
+        margin-bottom: 2%;
+    }
+    .container2{
+        width:100%;
+        background-color: #d5b4b5;
+        padding: 5%;
+    }
+    a {
+        width: 60%;
+    }
+
+    .row {
+        width: 100%;
+        align-items: center;
+    }
+
+    .perfil {
+        width: 30%;
+        margin: 3%;
+        align-items: center;
+        text-align: end;
+    }
+
+    .element {
+        width: 80%;
+        height: 10rem;
+        align-items: center;
+        margin: 0 auto;
+        border-radius: 3%;
+        margin-bottom: 3%;
+        margin: auto;
+    }
+
+    .fila3 {
+        width: 100%;
+        margin: 2%;
+        align-items: center;
+        text-align: justify;
+
+    }
+
+    .fila2 {
+        width: 68%;
+        align-items: left;
+        text-align: justify;
+        color: $second-color;
+
+    }
+
+    .fila1 {
+        width: 15%;
+        align-items: end;
+    }
+
+    .row2 {
+        width: 100%;
+        align-items: center;
+    }
+
+    .fila4 {
+        width: 100%;
+        align-items: center;
+        text-align: justify;
+    }
+
+    h2 {
+        align-items: center;
+        font-size: larger;
+        color: $tird-color;
+        text-align: center;
+    }
+
+    p {
+        text-align: justify;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .card-footer{
+        display: none;}
+        .vertical-bar {display: none;}
+}
+
+@media only screen and (min-width: 401px) and (max-width: 900px) {
+    body {
+        align-items: center;
+        background-color: $tird-color;
+    }
+    .vertical-bar {
+        position: sticky;
+        top: 0;
+        right: 0;
+        width: 100%;
+        background-color: #f8f9fa;
+        padding: 1%;
+      }
+      
+      .vertical-bar .nav-link {
+        color: #212529;
+      }
+      
+      .vertical-bar .nav-link:hover {
+        color: #dc3545;
+      }
+      li{text-align: center;
+    font-size: large;
+    display: inline-block;
+   }
+    h1,
+    .brand {
+        color: $tird-color;
+        font-style: none;
+        font-weight: bold;
+        font-size: xx-large;
+        text-decoration: none;
+        border-radius: 2%;
+        text-align: center;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    }
+
+ 
+    .container2{
+        width:100%;
+        background-color: $Primary-color;
+        padding: 2%;
+        margin-bottom: 3%;
+        margin-top: 2%;
+        border-radius: 2%;
+    }
+
+    a {
+        width: 60%;
+    }
+.col-sm-3{
+    width:50%
+}
+    .row {
+        width: 100%;
+        align-items: center;
+    }
+h3{
+    color: $sixth-color;
+        font-style:oblique;
+        font-weight: bold;
+        font-size: large;
+        border-radius: 2%;
+        text-align: center;
+        font-family:"Arial Narrow", Arial, sans-serif;
+}
+    .perfil {
+        width: 30%;
+        margin: 3%;
+        align-items: center;
+        text-align: end;
+    }
+
+    .element {
+        width: 100%;
+        height: 20rem;
+        align-items: center;
+        margin: 0 auto;
+        border-radius: 3%;
+        margin-bottom: 3%;
+        margin: auto;
+    }
+
+    .fila3 {
+        width: 100%;
+        margin: 2%;
+        align-items: center;
+        text-align: justify;
+
+    }
+
+    .fila2 {
+        width: 50%;
+        align-items: left;
+        text-align: justify;
+        color: $second-color;
+
+    }
+
+    .col-md-4{
+        width:50%
+    }
+    .fila4 {
+        width: 100%;
+        align-items: center;
+        text-align: justify;
+    }
+
+    h2 {
+        align-items: center;
+        font-size: x-large;
+        color: #a40b54;
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-style: oblique;
+    }
+
+    p {
+        text-align: justify;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .card-footer{
+        background-color: #8b7a72;
+        width:100%;
+        position: absolute;
+    }
+    .col-6{
+        width:50%;
+        text-align: center;
+        align-items: center;
+        margin: 0 auto;
+        color:#a40b54;
+        font-weight: bold;
+    }
+}
+@media (min-width: 901px) {
+    body {
+        align-items: center;
+        background-color: $tird-color;
+    }
+    .vertical-bar {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width:10%;
+        bottom: 0;
+        background-color: #f8f9fa;
+        padding: 1%;
+        align-items: center;
+      }
+      
+      .vertical-bar .nav-link {
+        color: #212529;
+      }
+      
+      .vertical-bar .nav-link:hover {
+        color: #dc3545;
+      }
+    h1,
+    .brand {
+        color: $tird-color;
+        font-style: none;
+        font-weight: bold;
+        font-size: xx-large;
+        text-decoration: none;
+        border-radius: 2%;
+        text-align: center;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    }
+
+    .container {
+        width: 90%;
+        background-color: $Primary-color;
+        border-radius: 2%;
+        margin-bottom: 3%;
+        align-items: left;
+    }
+    .container2{
+        width:90%;
+        background-color: #d5b4b5;
+        padding: 2%;
+        margin-bottom: 3%;
+        margin-top: 2%;
+    }
+
+    a {
+        width: 60%;
+    }
+.col-sm-3{
+    width:50%
+}
+    .row {
+        width: 100%;
+        align-items: center;
+    }
+h3{
+    color: $sixth-color;
+        font-style:oblique;
+        font-weight: bold;
+        font-size: large;
+        border-radius: 2%;
+        text-align: center;
+        font-family:"Arial Narrow", Arial, sans-serif;
+}
+    .perfil {
+        width: 30%;
+        margin: 3%;
+        align-items: center;
+        text-align: end;
+    }
+
+    .element {
+        width: 80%;
+        height: 20rem;
+        align-items: center;
+        margin: 0 auto;
+        border-radius: 3%;
+        margin-bottom: 3%;
+        margin: auto;
+    }
+
+    .fila3 {
+        width: 100%;
+        margin: 2%;
+        align-items: center;
+        text-align: justify;
+
+    }
+
+    .fila2 {
+        width: 68%;
+        align-items: left;
+        text-align: justify;
+        color: $second-color;
+
+    }
+
+    .fila1 {
+        width: 15%;
+        align-items: end;
+    }
+
+    .row2 {
+        width: 30%;
+        align-items: center;
+        background-color: #b48a4a;
+        margin-right: 3%;
+    }
+
+    .fila4 {
+        width: 100%;
+        align-items: center;
+        text-align: justify;
+    }
+
+    h2 {
+        align-items: center;
+        font-size: x-large;
+        color: #a40b54;
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-style: oblique;
+    }
+
+    p {
+        text-align: justify;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .card-footer{
+        background-color: #8b7a72;
+        width:100%;
+        position: absolute;
+    }
+    .col-6{
+        width:50%;
+        text-align: center;
+        align-items: center;
+        margin: 0 auto;
+        color:#a40b54;
+        font-weight: bold;
+    }
+}
